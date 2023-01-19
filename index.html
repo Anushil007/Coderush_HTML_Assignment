@@ -1,0 +1,126 @@
+<!-- 1. Create a website in HTML, that includes a form to accept  user input and then  submit a button. Use CSS gradient color in the page  and elements.(The whole page should be responsive)-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 >1. Signup</h1>
+    <form action="" id="form" method="GET">
+        <div>
+           <p class="input_label"> Full Name:</p>
+            <input type="text" name="full_name" class="input_item" placeholder="Ram" autofocus required> 
+        </div>
+        <div>
+            <p class="input_label">Email:</p>
+            <input type="email" name="email" class="input_item" placeholder="xyz@gmail.com" required>
+        </div>
+        <div>
+            <p class="input_label"> Age:</p>
+             <input type="number" name="age" class="input_item" placeholder="21" required> 
+         </div>
+        <div>
+            <p class="input_label">Password:</p>
+            <input type="password" name="password" class="input_item" required>
+        </div>
+
+        <div>
+            <p class="input_label">Confirm Password:</p>
+            <input type="password" name="Confirm_password" class="input_item" required>
+        </div>
+        <div>
+            <p class="input_label">Gender</p>
+            <input type="radio" name="male" value="male"> Male
+            <input type="radio" name="female" value="female"> Female
+            <input type="radio" name="other" value="other">Other
+        </div>
+        <br> <br>
+        <div>
+            <input id="terms_check" type="checkbox" name="terms_conditions" value="accept"> I agree to accept terms and conditions
+
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div class="w3rcontainer"><strong>2. Styled checkbox with animation on state change:</strong>
+        <div class="checkbox-container">
+          <input class="checkbox-input" id="oranges" type="checkbox" />
+          <label class="checkbox" for="yes">
+            <span>
+              <svg width="12px" height="10px">
+                <use xlink:href="#check"></use>
+              </svg>
+            </span>
+            <span>YES</span>
+          </label>
+          <input class="checkbox-input" id="bananas" type="checkbox" />
+          <label class="checkbox" for="no">
+            <span>
+              <svg width="12px" height="10px">
+                <use xlink:href="#check"></use>
+              </svg>
+            </span>
+            <span>NO</span>
+          </label>
+        </div>
+    </div>
+
+    <h3 id="effect">3. Image Overlay Effect on Hover</h3> 
+    <div class="container">
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="img" class="image" >
+        <div class="overlay overlayeffect">
+    
+        </div>
+    </div>
+
+    <h1> 4. Images in a grid format </h1>
+    <section>
+        <article class="blog-card">
+            <img class="blog-image" src="/Pictures/canada.jpg" alt="">
+            <p>Canada</p>
+        </article>
+        <article class="blog-card">
+            <img class="blog-image" src="/Pictures/china.jpg" alt="">
+            <p>China</p>
+        </article>
+        <article class="blog-card">
+            <img class="blog-image" src="/Pictures/chile.jpg" alt="">
+            <p>Chile</p>
+        </article>
+        <article class="blog-card">
+            <img class="blog-image" src="/Pictures/vietnam.jpg" alt="">
+            <p>Vietnam</p>
+        </article>
+        <article class="blog-card">
+            <img class="blog-image" src="/Pictures/australia.jpg" alt="">
+            <p>Australia</p>
+        </article>
+        <article class="blog-card">
+            <img class="blog-image" src="/Pictures/morocco.jpg" alt="">
+            <p>Morocco</p>
+        </article>
+        <article class="blog-card">
+            <img class="blog-image" src="/Pictures/japan.jpg" alt="">
+            <p>Japan</p>
+        </article>
+        <article class="blog-card">
+            <img class="blog-image" src="/Pictures/italy.jpg" alt="">
+            <p>Italy</p>
+        </article>
+        <article class="blog-card">
+            <img class="blog-image" src="/Pictures/turkey.jpg" alt="">
+            <p>Turkey</p>
+        </article>
+        <article class="blog-card">
+            <img class="blog-image" src="/Pictures/vietnam.jpg  " alt="">
+            <p>Australia</p>
+        </article>
+    </section>
+</body>
+</html>

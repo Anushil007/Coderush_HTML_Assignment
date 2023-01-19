@@ -1,0 +1,135 @@
+body{
+    background: linear-gradient(to right, #70e1f5, #ffd194);
+    margin: 0;
+
+}
+h1{
+    text-align: center;
+}
+#form{
+    width: 300px;
+    background-color: white;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input_label{
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+.input_item{
+    width: 100%;
+
+}
+#terms_check{
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+button{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: linear-gradient(to right, #73c8a9, #373b44);
+    color: white;
+    width: 300px;  
+    cursor: pointer;
+}
+.w3rcontainer{
+    margin-top: 50px;
+    border: 1px solid #cccfdb;
+    border-radius: 2px;
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+ } 
+ .hover-underline-animation {
+   display: inline-block;
+   position: relative;
+   color: #0087ca;
+ }
+ 
+ .hover-underline-animation:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   transform: scaleX(0);
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   background-color: #0087ca;
+   transform-origin: bottom right;
+   transition: transform 0.25s ease-out;
+ }
+ 
+ .hover-underline-animation:hover:after {
+   transform: scaleX(1);
+   transform-origin: bottom left;
+ }
+
+ #effect{
+    text-align: center;
+    margin-top: 50px;
+ }
+
+ .container{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 620px;
+    
+ }
+ .image{
+    display: block;
+    width: 250px;
+    height: 250px;
+ }
+ .overlay{
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: #eee;
+ }
+ .container:hover .overlay{
+    opacity: 0.6;
+ }
+ .overlayeffect{
+    width: 250px;
+    height: 250px;
+    top:0;
+    left: 0;
+    background-color: gray;
+ }
+
+ body{
+    margin: 0;
+    background-color: #F8F8FF;
+}
+
+section{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.blog-card{
+    width: 14%;
+    min-width: 200px;
+    height: 200px;
+    margin:8px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 5px #aaa;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+p{
+    text-align: center;
+}
+.blog-image{
+    width: 200px;
+    height: 150px;
+}
